@@ -1,0 +1,5 @@
+memory game:
+
+make an array with 20 cards, each card has a color, two have the same
+scramble the array but the array in the dom
+on press make a state that its active, then check next one to see if same colour

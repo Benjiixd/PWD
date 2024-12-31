@@ -1,0 +1,47 @@
+html, body {
+  height: 700px;
+  width: 900px;
+  margin: 0;
+}
+
+body {
+  background-image: url('..\..\images\xp-background.jpg');
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Push footer to the bottom */
+}
+
+footer {
+  display: flex;
+  justify-content: center; /* Center footer content horizontally */
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block; /* Align buttons in a row */
+  margin: 0 10px; /* Spacing between buttons */
+}
+
+.bar {
+  background-image: url('..\..\images\xp-bar.png');
+  height: 65px;
+  width: 1600px;
+  position: absolute;
+  bottom: 0; /* Position at the bottom */
+}
+
+#clock{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+#memorybutton, #chatbutton, #mapsbutton{
+}
